@@ -11,7 +11,7 @@ Table of Contents
 * [Synopsis](#synopsis)
 * [Description](#description)
 * [Methods](#methods)
-    * [get_uri_ext](#geturiext)
+    * [get uri ext](#geturiext)
 * [Community](#community)
     * [English Mailing List](#english-mailing-list)
     * [Chinese Mailing List](#chinese-mailing-list)
@@ -54,7 +54,7 @@ not need an object (or instance) to call these methods.
 
 [Back to TOC](#table-of-contents)
 
-get_uri_ext
+get uri ext
 -----------
 **syntax:** *ext = ngx_req.get_uri_ext(max?)*
 
