@@ -30,6 +30,7 @@ Table of Contents
     * [ngx.ssl](#ngxssl)
     * [ngx.ssl.session](#ngxsslsession)
     * [ngx.re](#ngxre)
+    * [ngx.req](#ngxreq)
 * [Caveat](#caveat)
 * [TODO](#todo)
 * [Author](#author)
@@ -242,6 +243,15 @@ This Lua module provides a Lua API which implements convenience utilities for
 the `ngx.re` API.
 
 See the [documentation](./lib/ngx/re.md) for this Lua module for more details.
+
+[Back to TOC](#table-of-contents)
+
+## ngx.req
+
+This Lua module provides a Lua API which implements convenience utilities for
+the `ngx.req` API.
+
+See the [documentation](./lib/ngx/req.md) for this Lua module for more details.
 
 [Back to TOC](#table-of-contents)
 
