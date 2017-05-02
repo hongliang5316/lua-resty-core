@@ -11,7 +11,7 @@ Table of Contents
 * [Synopsis](#synopsis)
 * [Description](#description)
 * [Methods](#methods)
-    * [get uri ext](#geturiext)
+    * [split](#geturiext)
 * [Community](#community)
     * [English Mailing List](#english-mailing-list)
     * [Chinese Mailing List](#chinese-mailing-list)
@@ -54,8 +54,8 @@ not need an object (or instance) to call these methods.
 
 [Back to TOC](#table-of-contents)
 
-get uri ext
------------
+split
+-----
 **syntax:** *ext = ngx_req.get_uri_ext(max?)*
 
 **context:** *set_by_lua&#42;, rewrite_by_lua&#42;, access_by_lua&#42;, content_by_lua&#42;, header_filter_by_lua&#42;, body_filter_by_lua&#42;, log_by_lua&#42;, balancer_by_lua&#42;*
