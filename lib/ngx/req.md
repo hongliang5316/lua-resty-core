@@ -42,7 +42,7 @@ Description
 ===========
 
 This Lua module provides a Lua API which implements convenience utilities for
-the `ngx.re` API.
+the `ngx.req` API.
 
 [Back to TOC](#table-of-contents)
 
@@ -62,8 +62,8 @@ split
 
 Returns the extension of request URL.
 
-The optional `max` argument is a number that when specified, will return
-`ngx_re.split` from adding more than `max` matches to the `res` array:
+The optional `max` argument (default 255) is a number that when specified, will return
+the `max` length of extension when the actual length of extension is greater then `max`.
 
 ```nginx
 
